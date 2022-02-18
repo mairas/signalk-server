@@ -393,7 +393,7 @@ class SentenceEventInput extends Component {
       <TextInput
         title="Input Event"
         name="options.sentenceEvent"
-        helpText="Event name for incoming sentences. Example: nmea1data"
+        helpText="Additional event name for incoming sentences. Example: nmea1data"
         value={this.props.value.sentenceEvent}
         onChange={this.props.onChange}
       />
